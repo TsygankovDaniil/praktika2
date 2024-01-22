@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no"/>
+    <title>Aveji</title>
+    <link rel="shortcut icon" type="image/svg+xml" href="./src/assets/icons/logo.ico" />
+    <link rel="stylesheet" href="./src/assets/styles/css/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="./src/assets/js/menu.js"></script>
+    <link rel="shortcut icon" href="/src\assets/icons/logo4.png" type="image/png">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header" id="header">
+          <div class="container">
+            <div class="header-wrap">
+              <a class="logo" href="index.html">
+                <img src="./src/assets/icons/logo4.png" alt="Aveji">
+              </a>
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a class="nav__link link text" href="#about">
+                      О нас
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link link text" href="#works">
+                      Проекты
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link link text" href="#">
+                      Материалы
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link link text" href="#reviews">
+                      Отзывы
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <a class="phone text" href="tel:79999999999">
+                +7 999 999 99 99
+              </a>
+              <button class="menu__btn" type="button" aria-label="Открыть/Закрыть меню" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <main class="main">
+          <section class="intro" id="intro">
+            <div class="container">
+              <div class="intro-wrap grid">
+                <h1 class="title title-lg">
+                  Эксклюзивная и нестандартная мебель для дома
+                </h1>
+                <p class="intro__text">
+                  Мы можем произвести любую мебель для вашего проекта и найти производственное решение любой задумки.
+                </p>
+                <a class="btn" href="#feedback">
+                  заказать проект
+                </a>
+                <div class="img">
+                  <img src="./src/assets/img/livingroom.jpg" alt="livingroom">
+                </div>
+                <div class="img desktop">
+                  <img src="./src/assets/img/livingroom-2.jpg" alt="livingroom">
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="about" id="about">
+            <div class="container">
+              <div class="about-wrap grid">
+                <h2 class="about__title heading">
+                  <span class="heading-mobile">
+                    О компании
+                  </span>
+                  <span class="heading-desktop">
+                    Более 5 лет создаем мебель для вашего комфорта
+                  </span>
+                </h2>
+                <div class="about-inner col">
+                  <div class="about-box-text">
+                    <p class="about__text text">
+                      Мы — команда профессионалов, которые могут произвести любую мебель для вашего проекта, а также найти производственное
+                      решение любой задумки.
+                    </p>
+                    <p class="about__text text">
+                      Наша основная цель — реализовывать самые смелые задумки, и делать это качественно и аккуратно.
+                    </p>
+                    <p class="about__text text">
+                      В качестве материалов мы используем натуральные — стекло, дерево, бетон, камень, металл и эпоксидную смолу.
+                    </p>
+                  </div>
+                  <ul class="benefits">
+                    <li class="benefits__item">
+                      <p class="benefits__subtitle">
+                        1 год
+                      </p>
+                      <p class="benefits__text text">
+                        гарантии на всю продукцию
+                      </p>
+                    </li>
+                    <li class="benefits__item">
+                      <p class="benefits__subtitle heading-md-24">
+                        300+
+                      </p>
+                      <p class="benefits__text text">
+                        выполненных проектов
+                      </p>
+                    </li>
+                    <li class="benefits__item">
+                      <p class="benefits__subtitle heading-md-24">
+                        15 дней
+                      </p>
+                      <p class="benefits__text text">
+                        срок производства
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="steps" id="steps">
+            <div class="container">
+              <div class="steps-wrap grid">
+                <h2 class="steps__title heading">
+                  Как мы работаем
+                </h2>
+                <div class="steps-inner col">
+                  <p class="steps__text text">
+                    Алгоритм работы с нами для удобства и понимания проекта
+                  </p>
+                  <ul class="steps-list">
+                    <li class="steps__item grid-col-6">
+                      <h3 class="subheading">
+                        Идея
+                      </h3>
+                      <p class="text">
+                        Клиент приходит к нам с идеей. Это может быть изображение/ эскиз или другой референс. А мы думаем над тем, как это
+                        реализовать, делаем технические чертежи и предлагаем решения по материалам.
+                      </p>
+                    </li>
+                    <li class="steps__item grid-col-6">
+                      <h3 class="subheading">
+                        Техническое задание
+                      </h3>
+                      <p class="text">
+                        Вместе с клиентом формулируем корректное ТЗ, которое включает в себя визуализацию изделия, эскизный чертёж с габаритами,
+                        информацию по материалам и отделке, срок реализации проекта и другие обязательные пункты.
+                      </p>
+                    </li>
+                    <li class="steps__item grid-col-6">
+                      <h3 class="subheading">
+                        Коммерческое предложение
+                      </h3>
+                      <p class="text">
+                        Предпочтительно используем натуральные материалы. Но любую смету можем оптимизировать, упростив материалы или
+                        конструктив. Сможем подстроиться под бюджет клиента и согласуем коммерческое предложение
+                      </p>
+                    </li>
+                    <li class="steps__item grid-col-6">
+                      <h3 class="subheading">
+                        Подготовка рабочего проекта
+                      </h3>
+                      <p class="text">
+                        Создадим рабочую документацию и чертежи. Это фундамент качественного производства. На этом этапе утверждаем с клиентом
+                        все габариты и материалы, чертежи и приступаем к производству.
+                      </p>
+                    </li>
+                    <li class="steps__item grid-col-6">
+                      <h3 class="subheading">
+                        Производство и монтаж
+                      </h3>
+                      <p class="text">
+                        Производство занимает от 15 рабочих дней, в зависимости от сложности и объёма. Монтажом тоже занимаемся самостоятельно.
+                        Ведь мы это сделаем быстро и аккуратно.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="projects" id="works">
+            <div class="container">
+              <h2 class="heading heading-indent">
+                Проекты
+              </h2>
+            </div>
+            <div class="container projects-container">
+              <ul class="projects-list">
+                <li class="projects__item">
+                  <div class="projects__img">
+                    <img src="./src/assets/img/tv.jpg" alt="tv">
+                  </div>
+                  <div class="projects-desc">
+                    <p class="projects__text text">
+                      Тумба под телевизор
+                    </p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                      <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                      <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                    </svg>
+                  </div>
+                  <a class="link" href="#"></a>
+                </li>
+                <li class="projects__item">
+                  <div class="projects__img">
+                    <img src="./src/assets/img/kitchen.jpg" alt="kitchen">
+                  </div>
+                  <div class="projects-desc">
+                    <p class="projects__text text">
+                      Тумба под телевизор
+                    </p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                      <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                      <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                    </svg>
+                  </div>
+                  <a class="link" href="#"></a>
+                </li>
+                <li class="projects__item">
+                  <div class="projects__img">
+                    <img src="./src/assets/img/livingroom-3.jpg" alt="livingroom">
+                  </div>
+                  <div class="projects-desc">
+                    <p class="projects__text text">
+                      Тумба под телевизор
+                    </p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                      <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                      <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                    </svg>
+                  </div>
+                  <a class="link" href="#"></a>
+                </li>
+                <li class="projects__item">
+                  <div class="projects__img">
+                    <img src="./src/assets/img/constructions.jpg" alt="constructions">
+                  </div>
+                  <div class="projects-desc">
+                    <p class="projects__text text">
+                      Тумба под телевизор
+                    </p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                      <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                      <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                    </svg>
+                  </div>
+                  <a class="link" href="#"></a>
+                </li>
+                <li class="projects__item">
+                  <div class="projects__img">
+                    <img src="./src/assets/img/bedroom.jpg" alt="bedroom">
+                  </div>
+                  <div class="projects-desc">
+                    <p class="projects__text text">
+                      Тумба под телевизор
+                    </p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                      <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                      <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                    </svg>
+                  </div>
+                  <a class="link" href="#"></a>
+                </li>
+                <li class="projects__item">
+                  <div class="projects__img">
+                    <img src="./src/assets/img/chest.jpg" alt="chest">
+                  </div>
+                  <div class="projects-desc">
+                    <p class="projects__text text">
+                      Тумба под телевизор
+                    </p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                      <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                      <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                    </svg>
+                  </div>
+                  <a class="link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="reviews" id="reviews">
+            <div class="container">
+              <h2 class="heading heading-indent">
+                Отзывы
+              </h2>
+              <ul class="reviews-wrap">
+                <li class="reviews__item">
+                  <article class="reviews-card">
+                    <div class="reviews-card__icon">
+                      <img src="./src/assets/icons/quotes.svg" alt="кавычки">
+                    </div>
+                    <h3 class="reviews__subtitle text">
+                      Игорь Антонов
+                    </h3>
+                    <p class="reviews__text text">
+                      Обратилась к Aveji по рекомендации. Команда сразу поняла, какой дизайн я хочу. Предоставили несколько вариантов
+                      и в течение недели сделали наброски. Итог понравился, все на высшем уровне.
+                    </p>
+                  </article>
+                </li>
+                <li class="reviews__item">
+                  <article class="reviews-card">
+                    <div class="reviews-card__icon">
+                      <img src="./src/assets/icons/quotes.svg" alt="кавычки">
+                    </div>
+                    <h3 class="reviews__subtitle text">
+                      Ольга Иванова
+                    </h3>
+                    <p class="reviews__text text">
+                      После пары заказов у компании Aveji убедилась, что за мебелью теперь только к ним. Абсолютно любые решения, в любых
+                      размерах и форм-факторе, то что нужно!
+                    </p>
+                  </article>
+                </li>
+                <li class="reviews__item">
+                  <article class="reviews-card">
+                    <div class="reviews-card__icon">
+                      <img src="./src/assets/icons/quotes.svg" alt="кавычки">
+                    </div>
+                    <h3 class="reviews__subtitle text">
+                      Аркадий Макаров
+                    </h3>
+                    <p class="reviews__text text">
+                      Aveji — настоящие профессионалы своего дела. Быстро поняли мою задумку, сделали дизайн, согласовали и изготовили мебель.
+                      А потом еще и бесплатно все собрали на месте. Большое спасибо!
+                    </p>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="contact" id="feedback">
+            <div class="container">
+              <div class="contact-wrap grid">
+                <div class="contact__img">
+                  <img src="./src/assets/img/bedroom-2.jpg" alt="bedroom">
+                </div>
+                <div class="contact-desc col">
+                  <div class="contact-desc-top">
+                    <h2 class="contact__title heading heading-indent">
+                      Хотите заказать проект?
+                    </h2>
+                    <p class="contact__text text">
+                      Оставьте заявку, и мы вам перезвоним
+                    </p>
+                  </div>
+                  <form class="form" method="get" action="#" autocomplete="on">
+                    <div class="form-inner">
+                      <div class="form-group">
+                        <input class="input" id="name" type="text" required>
+                        <label class="label text" for="name">
+                          Имя
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <input class="input" id="email" type="email" required>
+                        <label class="label text" for="email">
+                          E-mail
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <input class="input" id="phone" type="tel" required>
+                        <label class="label text" for="phone">
+                          Телефон
+                        </label>
+                      </div>
+                    </div>
+                    <button class="btn-primary text" type="submit">
+                      Отправить заявку
+                    </button>
+                  </form>
+                  <ul class="contact-download">
+                    <li class="contact-download-item">
+                      <a class="contact-download-link" href="#" download="#">
+                        <img src="./src/assets/icons/app-store.png" alt="app store">
+                      </a>
+                    </li>
+                    <li class="contact-download-item">
+                      <a class="contact-download-link" href="#" download="#">
+                        <img src="./src/assets/icons/google-play.png" alt="google play">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <div class="menu">
+          <div class="overlay"></div>
+          <div class="menu-content">
+            <div class="container">
+              <div class="menu-wrap">
+                <a class="menu-logo" href="index.html">
+                  <img src="./src/assets/icons/logo4.png" alt="Aveji">
+                </a>
+                <ul class="menu-list">
+                  <li class="menu__item">
+                    <a class="menu__link heading-md-24" href="#about">
+                      О нас
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link heading-md-24" href="#works">
+                      Проекты
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link heading-md-24" href="#">
+                      Материалы
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link heading-md-24" href="#reviews">
+                      Отзывы
+                    </a>
+                  </li>
+                </ul>
+                <div class="menu-info">
+                  <a class="phone heading-md-24" href="tel:79999999999">
+                    +7 999 999 99 99
+                  </a>
+                  <ul class="social-list">
+                    <li class="social__item">
+                      <a class="social__link heading-md-24" href="#">
+                        Вконтакте
+                      </a>
+                    </li>
+                    <li class="social__item">
+                      <a class="social__link heading-md-24" href="#">
+                        Телеграм
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-wrap">
+            <div class="footer-copyright">
+              <p class="footer__text text-md-18">
+                &copy; 2023 Aveji
+              </p>
+              <p class="footer__text text-md-18">
+                Все права защищены
+              </p>
+            </div>
+            <ul class="footer-policy">
+              <li class="footer-policy__item">
+                <a class="text link" href="mi.html">
+                  Политика конфеденциальности
+                </a>
+              </li>
+              <li class="footer-policy__item">
+                <a class="text link" href="#">
+                  Оплата и доставка
+                </a>
+              </li>
+            </ul>
+            <ul class="footer-social">
+              <li class="footer-social__item">
+                <a class="footer__text text-md-18 link" href="#">
+                  Вконтакте
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a class="footer__text text-md-18 link" href="#">
+                  Телеграм
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
