@@ -377,6 +377,11 @@ footer {
           flex: 0 0 auto;
 }
 
+.footer2 {
+  flex-grow: 1;
+  padding: 3rem;
+}
+
 .container {
   margin-inline: auto;
   width: min(100% - 1.875rem, 86rem);
@@ -1042,6 +1047,12 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.reviews-card2 {
+  padding: 15.5rem;
+  text-align: center;
+  display: flex;
+          justify-content: center;
+}
 .reviews-card__icon {
   margin-bottom: 2rem;
 }
@@ -1339,6 +1350,17 @@ footer {
   background: #ffffff;
   border-bottom: 1px solid #212529;
 }
+.input2 {
+  padding-top: 0.313rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #ffffff;
+  border-bottom: 1px solid #212529;
+  resize: vertical;
+}
 .input:focus ~ .label, .input:valid ~ .label {
   top: -1rem;
   font-size: 0.813rem;
@@ -1357,4 +1379,13 @@ footer {
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
 }
