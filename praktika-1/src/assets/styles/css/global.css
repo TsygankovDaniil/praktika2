@@ -1350,17 +1350,6 @@ footer {
   background: #ffffff;
   border-bottom: 1px solid #212529;
 }
-.input2 {
-  padding-top: 0.313rem;
-  padding-bottom: 0.75rem;
-  width: 100%;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  background: #ffffff;
-  border-bottom: 1px solid #212529;
-  resize: vertical;
-}
 .input:focus ~ .label, .input:valid ~ .label {
   top: -1rem;
   font-size: 0.813rem;
